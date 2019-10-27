@@ -1,1 +1,1 @@
-console.log("hello");
+document.body.firstElementChild.insertAdjacentHTML("afterbegin", "<button>hello</button>");
