@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+  "name": "Hello from background",
+  "version": "0.0.1",
+
+  "background": {
+    "persistent": true,
+    "scripts": [
+      "background.js"
+    ]
+  },
+
+  "permissions": [
+    "tabs"
+  ]
+}
